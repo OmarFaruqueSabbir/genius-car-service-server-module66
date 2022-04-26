@@ -113,7 +113,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/hero',(req,res)=>{
-    res.send('hero meets hero ku');
+    res.send('hero meets hero-ku');
 });
 
 app.listen(port,()=>{
